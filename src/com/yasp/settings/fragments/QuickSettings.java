@@ -24,7 +24,6 @@ import android.os.UserHandle;
 import android.provider.Settings;
 
 import androidx.preference.ListPreference;
-import androidx.preference.SwitchPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;

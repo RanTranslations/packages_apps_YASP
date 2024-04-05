@@ -34,7 +34,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.dashboard.DashboardFragment;
@@ -73,8 +73,8 @@ public class StatusBarSettings extends DashboardFragment implements
     private SystemSettingSwitchPreference mBatteryPercent;
     private SystemSettingSwitchPreference mBatteryPercentCharging;
     private SystemSettingSwitchPreference mBatteryPercentInside;
-    private SwitchPreference mLocationIndicator;
-    private SwitchPreference mCameraMicIndicator;
+    private SwitchPreferenceCompat mLocationIndicator;
+    private SwitchPreferenceCompat mCameraMicIndicator;
 
     @Override
     protected int getPreferenceScreenResId() {
